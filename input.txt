@@ -1,0 +1,18 @@
+  -     MACRO  - 
+&arg0  add   &arg1
+  -	A    1,&arg1
+  -	A    2,&arg1
+  -    MEND   -
+  -    START  -
+  -	L    3,num1
+  -	A    3,num1
+  -     ST   3,num1
+  X     add  num2
+  -	L    2,num2
+  Y     add  num1
+  -     A    3,num2
+  -	add  num3
+  -     END   -
+ 
+Benaras Hindu University (BHU), NIT Warangal, SSPL DRDO in D ..
+
